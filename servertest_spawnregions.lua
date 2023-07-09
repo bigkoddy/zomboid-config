@@ -1,0 +1,42 @@
+-- This file was automatically generated when the server was first started.
+-- Clients connecting to the server can choose to spawn in one of the following spawn regions.
+-- The administrator can add as many different spawn regions as he/she wants.
+function SpawnRegions()
+	return {
+		{ name = "Muldraugh, KY", file = "media/maps/Muldraugh, KY/spawnpoints.lua" },
+		{ name = "Riverside, KY", file = "media/maps/Riverside, KY/spawnpoints.lua" },
+		{ name = "Rosewood, KY", file = "media/maps/Rosewood, KY/spawnpoints.lua" },
+		{ name = "West Point, KY", file = "media/maps/West Point, KY/spawnpoints.lua" },
+		{ name = "Trelai_4x4", file = "media/maps/Trelai_4x4/spawnpoints.lua" },
+		{ name = "Trelai_spawns", file = "media/maps/Trelai_spawns/spawnpoints.lua" },
+		{ name = "Trelai_storyspawn", file = "media/maps/Trelai_storyspawn/spawnpoints.lua" },
+		{ name = "AZSpawn", file = "media/maps/AZSpawn/spawnpoints.lua" },
+		{ name = "BedfordFalls", file = "media/maps/BedfordFalls/spawnpoints.lua" },
+		{ name = "North", file = "media/maps/North/spawnpoints.lua" },
+		{ name = "South", file = "media/maps/South/spawnpoints.lua" },
+		{ name = "West", file = "media/maps/West/spawnpoints.lua" },
+		{ name = "Eerie A", file = "media/maps/Eerie A/spawnpoints.lua" },
+		{ name = "Eerie B", file = "media/maps/Eerie B/spawnpoints.lua" },
+		{ name = "Eerie C", file = "media/maps/Eerie C/spawnpoints.lua" },
+		{ name = "Eerie Country", file = "media/maps/Eerie Country/spawnpoints.lua" },
+		{ name = "Eerie D", file = "media/maps/Eerie D/spawnpoints.lua" },
+		{ name = "Fort Knox linked to Eerie Country", file = "media/maps/Fort Knox linked to Eerie Country/spawnpoints.lua" },
+		{ name = "Near Fort Knox", file = "media/maps/Near Fort Knox/spawnpoints.lua" },
+		{ name = "To Bedford Falls", file = "media/maps/To Bedford Falls/spawnpoints.lua" },
+		{ name = "To Eerie Country", file = "media/maps/To Eerie Country/spawnpoints.lua" },
+		{ name = "FrankfortKY", file = "media/maps/FrankfortKY/spawnpoints.lua" },
+		{ name = "Grapeseed", file = "media/maps/Grapeseed/spawnpoints.lua" },
+		{ name = "li_township", file = "media/maps/li_township/spawnpoints.lua" },
+		{ name = "LittleTownship", file = "media/maps/LittleTownship/spawnpoints.lua" },
+		{ name = "MREX", file = "media/maps/MREX/spawnpoints.lua" },
+		{ name = "Refordville", file = "media/maps/Refordville/spawnpoints.lua" },
+		{ name = "researchbase", file = "media/maps/researchbase/spawnpoints.lua" },
+		{ name = "researchbaseroad", file = "media/maps/researchbaseroad/spawnpoints.lua" },
+		{ name = "From Bedford Falls to Fort Knox", file = "media/maps/From Bedford Falls to Fort Knox/spawnpoints.lua" },
+		{ name = "pz_rosewoodexp_map", file = "media/maps/pz_rosewoodexp_map/spawnpoints.lua" },
+		{ name = "west_point_expansion", file = "media/maps/west_point_expansion/spawnpoints.lua" },
+		{ name = "WestPointExpansionFix", file = "media/maps/WestPointExpansionFix/spawnpoints.lua" },
+		{ name = "Wildberries", file = "media/maps/Wildberries/spawnpoints.lua" },
+		{ name = "rbr_road", file = "media/maps/rbr_road/spawnpoints.lua" },
+	}
+end
