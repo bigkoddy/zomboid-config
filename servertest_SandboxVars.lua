@@ -115,7 +115,7 @@ SandboxVars = {
     -- 4 = Rare
     -- 5 = Normal
     -- 6 = Common
-    SurvivalGearsLoot = 3,
+    SurvivalGearsLoot = 4,
     -- Default=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
@@ -185,7 +185,7 @@ SandboxVars = {
     -- Number of days until 100% growth. -1 means no growth. Zero means use the Erosion Speed option. Maximum 36,500 (100 years). Minimum=-1 Maximum=36500 Default=0
     ErosionDays = 720,
     -- Modifies the base XP gain from actions by this number. Minimum=0.00 Maximum=1000.00 Default=1.00
-    XpMultiplier = 1.2,
+    XpMultiplier = 1.6,
     -- Determines if the XP multiplier affects passively levelled skills eg. Fitness and Strength.
     XpMultiplierAffectsPassive = true,
     -- Use this to multiply or reduce engine general loudness. Minimum=0.00 Maximum=100.00 Default=1.00
@@ -584,7 +584,7 @@ SandboxVars = {
         -- Default=Some zombies in the world will pretend to be dead
         -- 1 = Some zombies in the world will pretend to be dead
         -- 2 = Some zombies in the world, as well as some you 'kill', can pretend to be dead
-        DisableFakeDead = 0,
+        DisableFakeDead = 3,
     },
     ZombieConfig = {
         -- Set by the "Zombie Count" population option. 4.0 = Insane, Very High = 3.0, 2.0 = High, 1.0 = Normal, 0.35 = Low, 0.0 = None. Minimum=0.00 Maximum=4.00 Default=1.00
@@ -948,5 +948,221 @@ SandboxVars = {
     },
     VehicleRepairOverhaul = {
         DisableVehicleSalvage = false,
+    },
+    MoreTraitsDynamic = {
+        AntiGunActivistDynamic = false,
+        -- Minimum=0 Maximum=10 Default=6
+        AntiGunActivistDynamicSkill = 6,
+        -- Minimum=0 Maximum=100000 Default=600
+        AntiGunActivistDynamicKill = 600,
+        AntiqueCollectorDynamic = false,
+        -- Minimum=0 Maximum=10 Default=10
+        AntiqueCollectorDynamicSkill = 10,
+        AsceticDynamic = true,
+        -- Minimum=0 Maximum=10 Default=5
+        AsceticDynamicSkill = 5,
+        BouncerDynamic = true,
+        -- Minimum=0 Maximum=10 Default=7
+        BouncerDynamicSmallBlunt = 7,
+        -- Minimum=0 Maximum=10 Default=7
+        BouncerDynamicStrength = 7,
+        EvasiveDynamic = true,
+        -- Minimum=0 Maximum=50 Default=40
+        EvasiveDynamicSkill = 40,
+        FastDynamic = true,
+        -- Minimum=0 Maximum=40 Default=30
+        FastDynamicSkill = 30,
+        FastWorkerDynamic = true,
+        -- Minimum=0 Maximum=80 Default=60
+        FastWorkerDynamicSkill = 60,
+        FlexibleDynamic = true,
+        -- Minimum=0 Maximum=10 Default=4
+        FlexibleDynamicSkill = 4,
+        GordaniteDynamic = true,
+        -- Minimum=0 Maximum=10 Default=6
+        GordaniteDynamicSkill = 6,
+        -- Minimum=0 Maximum=100000 Default=300
+        GordaniteDynamicKill = 300,
+        GourmandDynamic = true,
+        -- Minimum=0 Maximum=10 Default=9
+        GourmandDynamicSkill = 8,
+        GraverobberDynamic = true,
+        -- Minimum=0 Maximum=10 Default=8
+        GraverobberDynamicSkill = 8,
+        -- Minimum=0 Maximum=100000 Default=1000
+        GraverobberDynamicKill = 1000,
+        GruntWorkerDynamic = true,
+        -- Minimum=0 Maximum=10 Default=4
+        GruntWorkerDynamicSmallBlunt = 4,
+        -- Minimum=0 Maximum=10 Default=5
+        GruntWorkerDynamicWoodwork = 5,
+        -- Minimum=0 Maximum=100000 Default=200
+        GruntWorkerDynamicKill = 200,
+        GymGoerDynamic = true,
+        -- Minimum=0 Maximum=20 Default=14
+        GymGoerDynamicSkill = 14,
+        HardyDynamic = true,
+        -- Minimum=0 Maximum=10 Default=7
+        HardyDynamicSkill = 7,
+        IdealWeightDynamic = true,
+        -- Minimum=0 Maximum=100000 Default=21
+        IdealWeightDynamicTargetDaysToObtain = 21,
+        -- Minimum=0 Maximum=100000 Default=24
+        IdealWeightDynamicObtainGracePeriod = 72,
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
+        IdealWeightDynamicLoseGracePeriodMultiplier = 1.0,
+        -- Minimum=0 Maximum=100000 Default=18
+        IdealWeightDynamicLoseGracePeriodCap = 18,
+        ImmunocompromisedDynamic = false,
+        -- Minimum=0 Maximum=100000 Default=2000
+        ImmunocompromisedDynamicInfectionTime = 2000,
+        IncomprehensiveDynamic = false,
+        -- Minimum=0 Maximum=10 Default=4
+        IncomprehensiveDynamicSkill = 4,
+        IndefatigableDynamic = true,
+        -- Minimum=0 Maximum=120 Default=110
+        IndefatigableDynamicSkill = 110,
+        LeadFootDynamic = true,
+        -- Minimum=0 Maximum=50000 Default=200
+        LeadFootDynamicKill = 200,
+        MartialArtistDynamic = true,
+        -- Minimum=0 Maximum=10 Default=6
+        MartialArtistDynamicSmallBlunt = 6,
+        -- Minimum=0 Maximum=10 Default=6
+        MartialArtistDynamicFitness = 6,
+        MotionSickenssDynamic = true,
+        -- Minimum=0 Maximum=10 Default=5
+        MotionSickenssDynamicSkill = 5,
+        MundaneDynamic = true,
+        -- Minimum=0 Maximum=500000 Default=5000
+        MundaneDynamicDamage = 5000,
+        NaturalEaterDynamic = true,
+        -- Minimum=0 Maximum=10 Default=2
+        NaturalEaterDynamicCooking = 2,
+        -- Minimum=0 Maximum=10 Default=4
+        NaturalEaterDynamicForaging = 4,
+        NoodleLegsDynamic = true,
+        -- Minimum=0 Maximum=50 Default=30
+        NoodleLegsDynamicSkill = 30,
+        OlympianDynamic = true,
+        -- Minimum=0 Maximum=10 Default=5
+        OlympianDynamicSkillSprinting = 5,
+        -- Minimum=0 Maximum=10 Default=6
+        OlympianDynamicSkillFitness = 6,
+        PackMouseDynamic = true,
+        -- Minimum=0 Maximum=10 Default=7
+        PackMouseDynamicSkill = 7,
+        PackMuleDynamic = true,
+        -- Minimum=0 Maximum=10 Default=9
+        PackMuleDynamicSkill = 9,
+        ParanoiaDynamic = true,
+        -- Minimum=0 Maximum=100000 Default=200
+        ParanoiaDynamicHoursLose = 200,
+        PracticedSwordsmanDynamic = true,
+        -- Minimum=0 Maximum=20 Default=10
+        PracticedSwordsmanDynamicSkill = 10,
+        -- Minimum=0 Maximum=100000 Default=500
+        PracticedSwordsmanDynamicKill = 500,
+        ProwessBladeDynamic = true,
+        -- Minimum=0 Maximum=30 Default=24
+        ProwessBladeDynamicSkill = 24,
+        -- Minimum=0 Maximum=100000 Default=1200
+        ProwessBladeDynamicKill = 1200,
+        ProwessBluntDynamic = true,
+        -- Minimum=0 Maximum=20 Default=16
+        ProwessBluntDynamicSkill = 16,
+        -- Minimum=0 Maximum=100000 Default=800
+        ProwessBluntDynamicKill = 800,
+        ProwessGunsDynamic = true,
+        -- Minimum=0 Maximum=10 Default=8
+        ProwessGunsDynamicAiming = 8,
+        -- Minimum=0 Maximum=20 Default=16
+        ProwessGunsDynamicSkill = 16,
+        -- Minimum=0 Maximum=100000 Default=800
+        ProwessGunsDynamicKill = 800,
+        ProwessSpearDynamic = true,
+        -- Minimum=0 Maximum=10 Default=8
+        ProwessSpearDynamicSkill = 8,
+        -- Minimum=0 Maximum=100000 Default=400
+        ProwessSpearDynamicKill = 400,
+        QuietDynamic = true,
+        -- Minimum=0 Maximum=10 Default=4
+        QuietDynamicSkill = 4,
+        ScrapperDynamic = true,
+        -- Minimum=0 Maximum=10 Default=5
+        ScrapperDynamicMaintenance = 5,
+        -- Minimum=0 Maximum=10 Default=5
+        ScrapperDynamicMetalWelding = 5,
+        ScroungerDynamic = true,
+        -- Minimum=0 Maximum=10 Default=6
+        ScroungerDynamicSkill = 6,
+        SecondWindDynamic = true,
+        -- Minimum=0 Maximum=20 Default=18
+        SecondWindDynamicSkill = 18,
+        SlowWorkerDynamic = true,
+        -- Minimum=0 Maximum=80 Default=30
+        SlowWorkerDynamicSkill = 30,
+        SlowpokeDynamic = true,
+        -- Minimum=0 Maximum=40 Default=20
+        SlowpokeDynamicSkill = 20,
+        SwiftDynamic = true,
+        -- Minimum=0 Maximum=10 Default=4
+        SwiftDynamicSkill = 4,
+        SuperImmuneDynamic = true,
+        -- Minimum=0 Maximum=100000 Default=5000
+        SuperImmuneDynamicInfectionTime = 5000,
+        TavernBrawlerDynamic = true,
+        -- Minimum=0 Maximum=60 Default=12
+        TavernBrawlerDynamicSkill = 12,
+        TerminatorDynamic = true,
+        -- Minimum=0 Maximum=30 Default=28
+        TerminatorDynamicSkill = 28,
+        -- Minimum=0 Maximum=100000 Default=1400
+        TerminatorDynamicKill = 1400,
+        ThuggishDynamic = true,
+        -- Minimum=0 Maximum=20 Default=10
+        ThuggishDynamicSkill = 10,
+        -- Minimum=0 Maximum=100000 Default=500
+        ThuggishDynamicKill = 500,
+        TinkererDynamic = true,
+        -- Minimum=0 Maximum=30 Default=12
+        TinkererDynamicSkill = 12,
+        UnwaveringDynamic = true,
+        -- Minimum=0 Maximum=100000 Default=500
+        UnwaveringDynamicCounter = 500,
+        VagabondDynamic = true,
+        -- Minimum=0 Maximum=10 Default=5
+        VagabondDynamicSkill = 5,
+        WellFittedDynamic = true,
+        -- Minimum=0 Maximum=10 Default=8
+        WellFittedDynamicSkill = 8,
+        WildsmanDynamic = true,
+        -- Minimum=0 Maximum=30 Default=8
+        WildsmanDynamicSkill = 8,
+        -- Minimum=0 Maximum=100000 Default=200
+        WildsmanDynamicKill = 200,
+    },
+    TOC = {
+        -- Minimum=1 Maximum=10 Default=1
+        CicatrizationSpeedMultiplier = 2,
+    },
+    BerserkBeaver = {
+        message = "BERSERK MODE",
+        -- Minimum=0.01 Maximum=100.00 Default=1.00
+        recoilMultiplier = 3.0,
+        -- Minimum=0.01 Maximum=100.00 Default=2.00
+        minInterval = 75.0,
+        -- Minimum=0.01 Maximum=100.00 Default=3.00
+        maxInterval = 90.0,
+        -- Minimum=0.01 Maximum=100.00 Default=3.00
+        durationMin = 2.0,
+        -- Minimum=0.01 Maximum=100.00 Default=6.00
+        durationMax = 4.0,
+    },
+    RadioFrequencyManager = {
+        EnablePredefinedChannels = false,
+        PredefinedChannels = "89.4;Hitz FM|93.2;LBMW - Kentucky Radio|98;NNR Radio|101.2;KnoxTalk Radio",
+        -- Minimum=1 Maximum=4 Default=1
+        DefaultColor = 1,
     },
 }

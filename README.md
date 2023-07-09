@@ -127,5 +127,6 @@ No password required to enter the server
 - [Improvised Paint](https://steamcommunity.com/sharedfiles/filedetails/?id=2789503316)
 - [Kayli's Evolution Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2729417044)
 - [Rewarding Night Combat](https://steamcommunity.com/sharedfiles/filedetails/?id=2781963981)
+- [Sleeping Bags!](https://steamcommunity.com/sharedfiles/filedetails/?id=2714848168)
 - [Slower Sprinters \ Joggers and Runners](https://steamcommunity.com/sharedfiles/filedetails/?id=2716710487)
 - [The Only Cure](https://steamcommunity.com/sharedfiles/filedetails/?id=2703664356)
