@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.1.1] - 2023-07-10
+
+### Changed
+- Increased book reading speed
+
 ## [1.1.0] - 2023-07-09
 
 ### Added
