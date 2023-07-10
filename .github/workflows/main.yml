@@ -1,0 +1,35 @@
+name: 🚀 Deploy to main server
+on: 
+    push:
+        branches:
+            - master
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: Get latest code
+      uses: actions/checkout@v3
+
+    - name: Replace tokens
+      uses: flcdrg/replace-multiple-action@v1
+      with:
+        files: './servertest.ini'
+        find: '[{ "find": "#SERVER#", "replace": "${{ vars.SERVER }}" }, { "find": "#PORT#", "replace": "${{ vars.PORT }}" }, { "find": "#UDP_PORT#", "replace": "${{ vars.UDP_PORT }}" }, { "find": "#RCON_PORT#", "replace": "${{ vars.RCON_PORT }}"}]'
+    
+    - name: Clean replaced tokens
+      run: |
+        sed -i "s/\$1//g" './servertest.ini'
+        sed -i 's/\$2//g' './servertest.ini'
+    
+    - name: Sync files to server
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      with:
+        server: ${{ secrets.FTP_ADDRESS }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        server-dir: /zomboid/profile/Zomboid/Server/
+        exclude: |
+            **.git*
+            **/.git*/**
+            *.md
