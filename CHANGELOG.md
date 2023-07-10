@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.2] - 2023-07-10
+
+### Added
+
+- Included VHS skill mod
+
 ## [1.1.1] - 2023-07-10
 
 ### Changed

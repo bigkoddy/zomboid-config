@@ -130,3 +130,4 @@ No password required to enter the server
 - [Sleeping Bags!](https://steamcommunity.com/sharedfiles/filedetails/?id=2714848168)
 - [Slower Sprinters \ Joggers and Runners](https://steamcommunity.com/sharedfiles/filedetails/?id=2716710487)
 - [The Only Cure](https://steamcommunity.com/sharedfiles/filedetails/?id=2703664356)
+- [VHS SkillTapes](https://steamcommunity.com/sharedfiles/filedetails/?id=2702055974&searchtext=vhs)
