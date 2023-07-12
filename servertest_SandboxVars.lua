@@ -626,11 +626,11 @@ SandboxVars = {
         InitialPerkBonus = true,
         currentExerciseRegularityBonus = true,
         -- Minimum=0 Maximum=100 Default=25
-        currentExerciseOffset = 25,
+        currentExerciseOffset = 0,
         -- Minimum=0.01 Maximum=100.00 Default=5.00
-        currentExerciseRate = 7.5,
+        currentExerciseRate = 3.5,
         -- Minimum=0.00 Maximum=100.00 Default=6.00
-        AverageExerciseRegularityBonus = 8.5,
+        AverageExerciseRegularityBonus = 5.5,
         -- Minimum=0.00 Maximum=100.00 Default=0.30
         LevelBonus = 0.75,
         SpaceOutExercise = true,
@@ -640,7 +640,7 @@ SandboxVars = {
         -- Minimum=0.00 Maximum=10.00 Default=0.90
         RestedBonusNegative = 0.9,
         -- Minimum=0.01 Maximum=10.00 Default=1.00
-        XPMultiplier = 1.0,
+        XPMultiplier = 1.1,
         -- Minimum=0.00 Maximum=10.00 Default=1.00
         PassiveMultiplier = 1.2,
         -- Minimum=0.00 Maximum=10.00 Default=1.00
@@ -1164,5 +1164,11 @@ SandboxVars = {
         PredefinedChannels = "89.4;Hitz FM|93.2;LBMW - Kentucky Radio|98;NNR Radio|101.2;KnoxTalk Radio",
         -- Minimum=1 Maximum=4 Default=1
         DefaultColor = 1,
+    },
+    SleepWithFriends = {
+        RTorIG = 2,
+        SleepLength = "4.0",
+        EndurMulti = "2.0",
+        AutoWake = 1,
     },
 }

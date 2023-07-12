@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.3] - 2023-07-12
+
+### Added
+
+- Added new sleep mp mod to make sleeping less of a chore server-wide
+
+### Changed
+
+- Reduced fitness and strength gain from workout mod:
+ - Treadmill and Bench press xp gain remain unchanged
+ - Experience gain from exercising reduced overall (the gained experience will still be higher compared to passive gain)
+
 ## [1.1.2] - 2023-07-10
 
 ### Added

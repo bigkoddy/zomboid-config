@@ -78,6 +78,7 @@ No password required to enter the server
 - [Propane and Gasoline](https://steamcommunity.com/sharedfiles/filedetails/?id=2651349283)
 - [Proximity Inventory](https://steamcommunity.com/sharedfiles/filedetails/?id=2847184718)
 - [Pumps Have Propane](https://steamcommunity.com/sharedfiles/filedetails/?id=2739570406)
+- [Sleep With Friends](https://steamcommunity.com/sharedfiles/filedetails/?id=2686624983)
 - [Smoker](https://steamcommunity.com/sharedfiles/filedetails/?id=2026976958)
 - [Soul Filcher's Building Time](https://steamcommunity.com/sharedfiles/filedetails/?id=2324586266)
 - [Soul Filcher's Cooking Time](https://steamcommunity.com/sharedfiles/filedetails/?id=1910606509)
