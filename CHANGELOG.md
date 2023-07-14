@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.1.4] - 2023-07-14
+
+### Changed
+
+- Changed sleep multiplier to take 15 minutes irl for full tiredness recovery
+
+### Removed
+
+- Removed berserker mod
+
 ## [1.1.3] - 2023-07-12
 
 ### Added

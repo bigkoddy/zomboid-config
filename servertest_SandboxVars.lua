@@ -1144,20 +1144,7 @@ SandboxVars = {
     },
     TOC = {
         -- Minimum=1 Maximum=10 Default=1
-        CicatrizationSpeedMultiplier = 2,
-    },
-    BerserkBeaver = {
-        message = "BERSERK MODE",
-        -- Minimum=0.01 Maximum=100.00 Default=1.00
-        recoilMultiplier = 3.0,
-        -- Minimum=0.01 Maximum=100.00 Default=2.00
-        minInterval = 75.0,
-        -- Minimum=0.01 Maximum=100.00 Default=3.00
-        maxInterval = 90.0,
-        -- Minimum=0.01 Maximum=100.00 Default=3.00
-        durationMin = 2.0,
-        -- Minimum=0.01 Maximum=100.00 Default=6.00
-        durationMax = 4.0,
+        CicatrizationSpeedMultiplier = 1,
     },
     RadioFrequencyManager = {
         EnablePredefinedChannels = false,
@@ -1166,8 +1153,8 @@ SandboxVars = {
         DefaultColor = 1,
     },
     SleepWithFriends = {
-        RTorIG = 2,
-        SleepLength = "4.0",
+        RTorIG = 1,
+        SleepLength = "0.25",
         EndurMulti = "2.0",
         AutoWake = 1,
     },

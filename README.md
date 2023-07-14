@@ -116,7 +116,6 @@ No password required to enter the server
 ### New Items and Mechanics
 - [Authentic Z](https://steamcommunity.com/sharedfiles/filedetails/?id=2335368829)
 - [Better Flashlights](https://steamcommunity.com/sharedfiles/filedetails/?id=2766033079)
-- [Big Bad Beaver's Berserk](https://steamcommunity.com/sharedfiles/filedetails/?id=2954181035)
 - [Canteens And Bottles](https://steamcommunity.com/sharedfiles/filedetails/?id=2863949128)
 - [CoolBag](https://steamcommunity.com/sharedfiles/filedetails/?id=2613596656)
 - [Dark World](https://steamcommunity.com/sharedfiles/filedetails/?id=2617374908)
