@@ -950,7 +950,7 @@ SandboxVars = {
         DisableVehicleSalvage = false,
     },
     MoreTraitsDynamic = {
-        AntiGunActivistDynamic = false,
+        AntiGunActivistDynamic = true,
         -- Minimum=0 Maximum=10 Default=6
         AntiGunActivistDynamicSkill = 6,
         -- Minimum=0 Maximum=100000 Default=600
@@ -961,12 +961,12 @@ SandboxVars = {
         AsceticDynamic = true,
         -- Minimum=0 Maximum=10 Default=5
         AsceticDynamicSkill = 5,
-        BouncerDynamic = true,
+        BouncerDynamic = false,
         -- Minimum=0 Maximum=10 Default=7
         BouncerDynamicSmallBlunt = 7,
         -- Minimum=0 Maximum=10 Default=7
         BouncerDynamicStrength = 7,
-        EvasiveDynamic = true,
+        EvasiveDynamic = false,
         -- Minimum=0 Maximum=50 Default=40
         EvasiveDynamicSkill = 40,
         FastDynamic = true,
@@ -975,23 +975,23 @@ SandboxVars = {
         FastWorkerDynamic = true,
         -- Minimum=0 Maximum=80 Default=60
         FastWorkerDynamicSkill = 60,
-        FlexibleDynamic = true,
+        FlexibleDynamic = false,
         -- Minimum=0 Maximum=10 Default=4
         FlexibleDynamicSkill = 4,
-        GordaniteDynamic = true,
+        GordaniteDynamic = false,
         -- Minimum=0 Maximum=10 Default=6
         GordaniteDynamicSkill = 6,
         -- Minimum=0 Maximum=100000 Default=300
         GordaniteDynamicKill = 300,
-        GourmandDynamic = true,
+        GourmandDynamic = false,
         -- Minimum=0 Maximum=10 Default=9
         GourmandDynamicSkill = 8,
-        GraverobberDynamic = true,
+        GraverobberDynamic = false,
         -- Minimum=0 Maximum=10 Default=8
         GraverobberDynamicSkill = 8,
         -- Minimum=0 Maximum=100000 Default=1000
         GraverobberDynamicKill = 1000,
-        GruntWorkerDynamic = true,
+        GruntWorkerDynamic = false,
         -- Minimum=0 Maximum=10 Default=4
         GruntWorkerDynamicSmallBlunt = 4,
         -- Minimum=0 Maximum=10 Default=5
@@ -1001,7 +1001,7 @@ SandboxVars = {
         GymGoerDynamic = true,
         -- Minimum=0 Maximum=20 Default=14
         GymGoerDynamicSkill = 14,
-        HardyDynamic = true,
+        HardyDynamic = false,
         -- Minimum=0 Maximum=10 Default=7
         HardyDynamicSkill = 7,
         IdealWeightDynamic = true,
@@ -1019,13 +1019,13 @@ SandboxVars = {
         IncomprehensiveDynamic = false,
         -- Minimum=0 Maximum=10 Default=4
         IncomprehensiveDynamicSkill = 4,
-        IndefatigableDynamic = true,
+        IndefatigableDynamic = false,
         -- Minimum=0 Maximum=120 Default=110
         IndefatigableDynamicSkill = 110,
         LeadFootDynamic = true,
         -- Minimum=0 Maximum=50000 Default=200
         LeadFootDynamicKill = 200,
-        MartialArtistDynamic = true,
+        MartialArtistDynamic = false,
         -- Minimum=0 Maximum=10 Default=6
         MartialArtistDynamicSmallBlunt = 6,
         -- Minimum=0 Maximum=10 Default=6
@@ -1035,8 +1035,8 @@ SandboxVars = {
         MotionSickenssDynamicSkill = 5,
         MundaneDynamic = true,
         -- Minimum=0 Maximum=500000 Default=5000
-        MundaneDynamicDamage = 5000,
-        NaturalEaterDynamic = true,
+        MundaneDynamicDamage = 4000,
+        NaturalEaterDynamic = false,
         -- Minimum=0 Maximum=10 Default=2
         NaturalEaterDynamicCooking = 2,
         -- Minimum=0 Maximum=10 Default=4
@@ -1044,7 +1044,7 @@ SandboxVars = {
         NoodleLegsDynamic = true,
         -- Minimum=0 Maximum=50 Default=30
         NoodleLegsDynamicSkill = 30,
-        OlympianDynamic = true,
+        OlympianDynamic = false,
         -- Minimum=0 Maximum=10 Default=5
         OlympianDynamicSkillSprinting = 5,
         -- Minimum=0 Maximum=10 Default=6
@@ -1055,10 +1055,10 @@ SandboxVars = {
         PackMuleDynamic = true,
         -- Minimum=0 Maximum=10 Default=9
         PackMuleDynamicSkill = 9,
-        ParanoiaDynamic = true,
+        ParanoiaDynamic = false,
         -- Minimum=0 Maximum=100000 Default=200
         ParanoiaDynamicHoursLose = 200,
-        PracticedSwordsmanDynamic = true,
+        PracticedSwordsmanDynamic = false,
         -- Minimum=0 Maximum=20 Default=10
         PracticedSwordsmanDynamicSkill = 10,
         -- Minimum=0 Maximum=100000 Default=500
@@ -1085,18 +1085,18 @@ SandboxVars = {
         ProwessSpearDynamicSkill = 8,
         -- Minimum=0 Maximum=100000 Default=400
         ProwessSpearDynamicKill = 400,
-        QuietDynamic = true,
+        QuietDynamic = false,
         -- Minimum=0 Maximum=10 Default=4
         QuietDynamicSkill = 4,
-        ScrapperDynamic = true,
+        ScrapperDynamic = false,
         -- Minimum=0 Maximum=10 Default=5
         ScrapperDynamicMaintenance = 5,
         -- Minimum=0 Maximum=10 Default=5
         ScrapperDynamicMetalWelding = 5,
-        ScroungerDynamic = true,
+        ScroungerDynamic = false,
         -- Minimum=0 Maximum=10 Default=6
         ScroungerDynamicSkill = 6,
-        SecondWindDynamic = true,
+        SecondWindDynamic = false,
         -- Minimum=0 Maximum=20 Default=18
         SecondWindDynamicSkill = 18,
         SlowWorkerDynamic = true,
@@ -1105,38 +1105,38 @@ SandboxVars = {
         SlowpokeDynamic = true,
         -- Minimum=0 Maximum=40 Default=20
         SlowpokeDynamicSkill = 20,
-        SwiftDynamic = true,
+        SwiftDynamic = false,
         -- Minimum=0 Maximum=10 Default=4
         SwiftDynamicSkill = 4,
-        SuperImmuneDynamic = true,
+        SuperImmuneDynamic = false,
         -- Minimum=0 Maximum=100000 Default=5000
         SuperImmuneDynamicInfectionTime = 5000,
-        TavernBrawlerDynamic = true,
+        TavernBrawlerDynamic = false,
         -- Minimum=0 Maximum=60 Default=12
         TavernBrawlerDynamicSkill = 12,
-        TerminatorDynamic = true,
+        TerminatorDynamic = false,
         -- Minimum=0 Maximum=30 Default=28
         TerminatorDynamicSkill = 28,
         -- Minimum=0 Maximum=100000 Default=1400
         TerminatorDynamicKill = 1400,
-        ThuggishDynamic = true,
+        ThuggishDynamic = false,
         -- Minimum=0 Maximum=20 Default=10
         ThuggishDynamicSkill = 10,
         -- Minimum=0 Maximum=100000 Default=500
         ThuggishDynamicKill = 500,
-        TinkererDynamic = true,
+        TinkererDynamic = false,
         -- Minimum=0 Maximum=30 Default=12
         TinkererDynamicSkill = 12,
-        UnwaveringDynamic = true,
+        UnwaveringDynamic = false,
         -- Minimum=0 Maximum=100000 Default=500
         UnwaveringDynamicCounter = 500,
-        VagabondDynamic = true,
+        VagabondDynamic = false,
         -- Minimum=0 Maximum=10 Default=5
         VagabondDynamicSkill = 5,
         WellFittedDynamic = true,
         -- Minimum=0 Maximum=10 Default=8
         WellFittedDynamicSkill = 8,
-        WildsmanDynamic = true,
+        WildsmanDynamic = false,
         -- Minimum=0 Maximum=30 Default=8
         WildsmanDynamicSkill = 8,
         -- Minimum=0 Maximum=100000 Default=200
@@ -1154,8 +1154,8 @@ SandboxVars = {
     },
     SleepWithFriends = {
         RTorIG = 1,
-        SleepLength = "0.25",
-        EndurMulti = "2.0",
+        SleepLength = "0.17",
+        EndurMulti = "3.0",
         AutoWake = 1,
     },
 }

@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.5] - 2023-07-14
+
+### Changed
+
+- Disabled various obtainable dynamic traits as they were redundant past character creation
+- Decreased sleeping time required to reduce fatigue
+- Increased endurance regeneration while sleeping
+
 ## [1.1.4] - 2023-07-14
 
 ### Changed
