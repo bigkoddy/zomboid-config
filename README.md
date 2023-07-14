@@ -14,6 +14,7 @@ No password required to enter the server
 - Traits made more balanced and with dynamic acquisition, meaning some traits you pick at the beginning CAN be lost while others CAN be gained;
  - For a detailed description of the mod, refer to [dynamic traits mod page](https://steamcommunity.com/sharedfiles/filedetails/?id=2459400130);
  - For a list of dynamic traits, refer to [dynamic traits documentation](https://docs.google.com/spreadsheets/d/14dMghH3nbw58-DEIbczaYq9zOdWX0JF4EYOqn7tvjV8/edit#gid=89466166);
+ - Some traits from More Traits more are also dynamic. FOr a list of how the dynamic traits work, see [More Traits Dynamic](https://docs.google.com/spreadsheets/d/1YM0g4fTXrDiDYuvFvNkmqEjFIaTIK4_Bb0dQvmLnIvA/edit#gid=0)
 - Horde night Info:
  - Start to appear on day 15 of the first character created;
  - Starting zed count is 25;
