@@ -1154,8 +1154,8 @@ SandboxVars = {
     },
     SleepWithFriends = {
         RTorIG = 1,
-        SleepLength = "0.17",
-        EndurMulti = "3.0",
+        SleepLength = "0.25",
+        EndurMulti = "2.75",
         AutoWake = 1,
     },
 }
