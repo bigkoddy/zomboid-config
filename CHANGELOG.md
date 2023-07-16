@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.6] - 2023-07-15
+
+### Changed
+
+- Reduced exercise experience gain
+
 ## [1.1.5] - 2023-07-14
 
 ### Changed

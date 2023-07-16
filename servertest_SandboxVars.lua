@@ -628,11 +628,11 @@ SandboxVars = {
         -- Minimum=0 Maximum=100 Default=25
         currentExerciseOffset = 0,
         -- Minimum=0.01 Maximum=100.00 Default=5.00
-        currentExerciseRate = 3.5,
+        currentExerciseRate = 2.5,
         -- Minimum=0.00 Maximum=100.00 Default=6.00
-        AverageExerciseRegularityBonus = 5.5,
+        AverageExerciseRegularityBonus = 3.5,
         -- Minimum=0.00 Maximum=100.00 Default=0.30
-        LevelBonus = 0.75,
+        LevelBonus = 0.4,
         SpaceOutExercise = true,
         -- Minimum=0.00 Maximum=100.00 Default=0.90
         SpaceOutExerciseNegative = 0.9,
