@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.1.7] - 2023-07-18
+
+### Changed
+
+- Reduced server day length to 3 hours IRL
+- Reduced time for Super Immune range
+ - Minimum: 3 days from 10
+ - Maximum: 7 days from 30
+- Added Super Immune infection bonus
+- Changed sleep with friends mod to take in-game time into calculation
+
 ## [1.1.6] - 2023-07-15
 
 ### Changed

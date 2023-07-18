@@ -36,7 +36,7 @@ SandboxVars = {
     -- 23 = 21 Hours
     -- 24 = 22 Hours
     -- 25 = 23 Hours
-    DayLength = 6,
+    DayLength = 5,
     StartYear = 1,
     -- Default=July
     -- 1 = January
@@ -903,10 +903,10 @@ SandboxVars = {
         -- Minimum=5 Maximum=50 Default=25
         HardyEndurance = 30,
         -- Minimum=5 Maximum=60 Default=10
-        SuperImmuneMinDays = 10,
+        SuperImmuneMinDays = 3,
         -- Minimum=5 Maximum=60 Default=30
-        SuperImmuneMaxDays = 30,
-        SuperImmuneFirstInfectionBonus = false,
+        SuperImmuneMaxDays = 7,
+        SuperImmuneFirstInfectionBonus = true,
         SuperImmuneWeakness = false,
         QuickSuperImmune = false,
         -- Minimum=0 Maximum=100 Default=25
@@ -1153,8 +1153,8 @@ SandboxVars = {
         DefaultColor = 1,
     },
     SleepWithFriends = {
-        RTorIG = 1,
-        SleepLength = "0.25",
+        RTorIG = 2,
+        SleepLength = "0.5",
         EndurMulti = "2.75",
         AutoWake = 1,
     },
