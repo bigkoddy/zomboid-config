@@ -1158,4 +1158,22 @@ SandboxVars = {
         EndurMulti = "2.75",
         AutoWake = 1,
     },
+    StandardisedExperience = {
+        WantSTAiming = false,
+        AimingMultiplier = 2,
+        ReloadMult = 5,
+        ReloadChance = 2,
+        ReloadNerf = false,
+        WantSTNimble = true,
+        NimbleMult = 1,
+        NimbleDelay = 3,
+        WantSTSprinting = true,
+        SprintMult = 2,
+        SprintDelay = 2,
+        WantSTPassive = false,
+        FitnessBoost = 1,
+        FitnessChance = 4,
+        StrengthBoost = 2,
+        StrengthChance = 4
+    },
 }

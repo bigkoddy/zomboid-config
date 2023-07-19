@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.8] - 2023-07-19
+
+### Added
+
+- Added standardized xp mod for aim/reload, nimble and sprinting for streamlined progression
+
 ## [1.1.7] - 2023-07-18
 
 ### Changed
