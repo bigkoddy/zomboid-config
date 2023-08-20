@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.9] - 2023-08-20
+
+### Added
+
+- Added for fun mod
+
 ## [1.1.8] - 2023-07-19
 
 ### Added
